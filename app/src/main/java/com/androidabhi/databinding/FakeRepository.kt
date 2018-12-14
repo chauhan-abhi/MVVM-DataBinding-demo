@@ -8,7 +8,7 @@ object FakeRepository {
 
     private val movieNames: List<String> = listOf(
         "Harry Potter", "LOTR", "The Hobbit", "Inception", "Maze Runner", "Hunger Games",
-        "Iron Man", "Avengers", "Deadpool", "X-Men"
+        "Iron Man", "Avengers", "DeadPool", "X-Men"
     )
 
     // This should be private as Mutable Live Data value should
