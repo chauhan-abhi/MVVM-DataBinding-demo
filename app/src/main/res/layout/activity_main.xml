@@ -18,7 +18,7 @@
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@{viewmodel.currentRandomFruitName}"
+                android:text="@{viewmodel.currentRandomMovieName}"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -27,7 +27,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.12"
-                tools:text="Some random fruit"/>
+                tools:text="Some random movie"/>
 
         <Button
                 android:id="@+id/button"
@@ -35,8 +35,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
-                android:onClick="@{() -> viewmodel.onChangeRandomFruitClick()}"
-                android:text="Change Fruit"
+                android:onClick="@{() -> viewmodel.onChangeMovieNameCLicked()}"
+                android:text="Change Movie"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -51,7 +51,7 @@
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
-                android:hint="Enter a fruit name"
+                android:hint="Enter a movie name"
                 android:text="@={viewmodel.editTextContent}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -102,7 +102,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginBottom="8dp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-                android:text="Select random fruit for EditText"
+                android:text="Select random movie for EditText"
                 android:onClick="@{() -> viewmodel.onSelectRandomEditTextFruit()}"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
