@@ -5,5 +5,5 @@ in Kotlin using  both one-way and two-way databinding.
 
 The app uses:
 * Data Binding 
-* MVVM architecture
+* MVVM architecture components
 * AndroidX extensions
