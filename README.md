@@ -6,4 +6,5 @@ in Kotlin using  both one-way and two-way databinding.
 The app uses:
 * Data Binding 
 * MVVM architecture components
+* Live Data
 * AndroidX extensions
